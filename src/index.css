@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.app-container {
+  width: 100%;
+  height: 100dvh;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.App {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+h1 {
+  font-size: 88px;
+  letter-spacing: 3px;
+}
+.input-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+input {
+  width: 25%;
+  height: 46px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color:azure;
+}
+input:focus {
+  outline: none;
+}
+.button {
+  width: 6%;
+  height: 46px;
+  background: #833ab4;
+  /* background: radial-gradient(circle,#D8BFD8 10%,#452c63 50%); */
+  /* background: rgba(148,187,233,1); */
+  color: white;
+}
+ul {
+  width: 32%;
+  height: auto;
+  list-style: none;
+}
+li {
+  border-radius: 4px;
+  width: 100%;
+  height: 46px;
+  padding: 8px;
+  margin-bottom: 20px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(148, 187, 233, 1) 0%,
+
+    rgba(238, 174, 202, 1) 100%
+  );
+  box-shadow: 5px 5px 5px 0px  rgb(115, 115, 115);
+  /* background-color: yellowgreen; */
+}
+span {
+  width: 70%;
+  /* padding: 5px; */
+  font-size: 18px;
+}
+.li-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  width: 15%;
+  height: 100%;
+  color: white;
+}
+.btn1{
+  background: rgb(5, 2, 59);
+}
+.btn2{
+  background: rgb(131,58,180);
+}
