@@ -10,12 +10,9 @@ function App() {
 
   const handleAddNote = () => {
     if (newNote.trim() !== '') {
-      dispatch(addNote({
-        id: Date.now().toString(),
-        content: newNote,
-        important: false
-      }));
+      dispatch(addNote({id: parseInt(localStorage.getItem("id") || "1"), content: newNote, important: false}));
       setNewNote('');
+      localStorage.setItem("id", (parseInt(localStorage.getItem("id") || "1") + 1).toString());
     }
   };
 
